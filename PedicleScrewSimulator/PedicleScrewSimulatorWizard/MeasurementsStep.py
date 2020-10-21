@@ -154,9 +154,9 @@ class MeasurementsStep( PedicleScrewSimulatorStep ):
           greenWidget = lm.sliceWidget('Green')
           greenController = greenWidget.sliceController()
         
-          yellowController.setSliceOffsetValue(coords[0])
-          greenController.setSliceOffsetValue(coords[1])
-          redController.setSliceOffsetValue(coords[2])
+          yellowController.mrmlSliceNode().JumpSliceByCentering(coords[0],coords[1],coords[2])
+          greenController.mrmlSliceNode().JumpSliceByCentering(coords[0],coords[1],coords[2])
+          redController.mrmlSliceNode().JumpSliceByCentering(coords[0],coords[1],coords[2])
         else:
             return
     

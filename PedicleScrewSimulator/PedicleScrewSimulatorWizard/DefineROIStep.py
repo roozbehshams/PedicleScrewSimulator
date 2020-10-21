@@ -404,8 +404,8 @@ class DefineROIStep( PedicleScrewSimulatorStep ) :
     else:
       self.__parent.validationSucceeded('fail')
       slicer.mrmlScene.Clear(0)
-      
-      
+
+
   def onExit(self, goingTo, transitionType):
    
     if goingTo.id() != 'Landmarks' and goingTo.id() != 'LoadData': # Change to next step

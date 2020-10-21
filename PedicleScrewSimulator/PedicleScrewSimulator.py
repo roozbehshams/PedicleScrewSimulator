@@ -17,7 +17,7 @@ class PedicleScrewSimulator(ScriptedLoadableModule):
 
   def __init__(self, parent):
     ScriptedLoadableModule.__init__(self, parent)
-    self.parent.title = "Pedicle Screw Simulator"
+    self.parent.title = "Custom Pedicle Screw Simulator"
     self.parent.categories = ["Training"]
     self.parent.dependencies = []
     self.parent.contributors = ["Brendan Polley (University of Toronto)",

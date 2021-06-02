@@ -27,4 +27,4 @@ module designed by the Sunnybrook Research Institute in Toronto.
 
 ## Usage
 
-1. Load the module called `Training/Custom Pedicle Screw Simulator`
+1. Load the module called `Training/Custom Pedicle Screw Simulator` ![](doc/1-Loading-the-module.png)

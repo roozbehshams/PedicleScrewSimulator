@@ -27,7 +27,7 @@ module designed by the Sunnybrook Research Institute in Toronto.
 
 ## Documentation
 
-To start, load the module called `Training/Custom Pedicle Screw Simulator`. ![Initial 3D Slicer view](doc/1-Loading-the-module.png)
+To start, load the module called `Training/Custom Pedicle Screw Simulator` in the modules dropdown menu at the top of the window. ![Initial 3D Slicer view](doc/1-Loading-the-module.png)
 
 ### Usage
 

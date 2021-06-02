@@ -39,4 +39,4 @@ For each of the following step, once completed, press the `Next` button in the b
 
 > Tip: In the *Rendering* option in the left panel, select *VTK GPU Ray Casting* for improved performance.
 
-2. Select the appropriate *1st Instrumented Level* as well as the *# to Instrument*. The number of levels selected goes down the spine (ie. *L3* with 3 levels -> *L3*, *L4*, *L5*). Optionally adjust the bounding box to only select the vertebra levels of interest by dragging the colored dots in any of the four quadrants.
+2. Select the appropriate *1st Instrumented Level* as well as the *# to Instrument*. The number of levels selected goes down the spine (ie. *L3* with 3 levels -> *L3*, *L4*, *L5*). Optionally adjust the bounding box to only select the vertebra levels of interest by dragging the colored dots in any of the four quadrants. ![Select the vertebra levels to be instrumented](doc/4-Select-vertebra-levels.png)

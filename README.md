@@ -16,11 +16,11 @@ module designed by the Sunnybrook Research Institute in Toronto.
     - Using Git in a terminal: `git clone --branch custom https://github.com/roozbehshams/PedicleScrewSimulator`
     - Via the releases page (extract the contents): https://github.com/roozbehshams/PedicleScrewSimulator/releases/tag/v1.0
 3. Install the module in 3D Slicer:
-    a. Launch 3D Slicer
-    b. Open the **Edit/Application Settings**
-    c. Switch to the **Modules** menu item in the left navigation
-    d. In the **Additional module paths**, *Add* a path to the previously downloaded path (`PedicleScrewSimulator/PedicleScrewSimulator`)
-    e. Click **OK**, 3D Slicer should prompt to relaunch the application in order to correctly load the module
+    1. Launch 3D Slicer
+    2. Open the **Edit/Application Settings**
+    3. Switch to the **Modules** menu item in the left navigation
+    4. In the **Additional module paths**, *Add* a path to the previously downloaded path (`PedicleScrewSimulator/PedicleScrewSimulator`)
+    5. Click **OK**, 3D Slicer should prompt to relaunch the application in order to correctly load the module
 
-> Note: In step *3.d*, the correct path to be added must be to the folder called `PedicleScrewSimulator` which is situated inside
+> Note: In step *3.4*, the correct path to be added must be to the folder called `PedicleScrewSimulator` which is situated inside
 > the cloned/extracted directory of the same name. For example: `/home/JohnDoe/PedicleScrewSimulator/PedicleScrewSimulator`.

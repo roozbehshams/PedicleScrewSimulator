@@ -41,3 +41,10 @@ For each of the following step, once completed, press the `Next` button in the b
 
 2. Select the appropriate *1st Instrumented Level* as well as the *# to Instrument*. The number of levels selected goes down the spine (ie. *L3* with 3 levels -> *L3*, *L4*, *L5*). Optionally adjust the bounding box to only select the vertebra levels of interest by dragging the colored dots in any of the four quadrants. ![Select the vertebra levels to be instrumented](doc/4-Select-vertebra-levels.png)
 3. Place the landmarks corresponding to the desired entrypoints. There will be an opportunity to correct the placement in the next step too. [Download the following video for a demonstration](https://github.com/roozbehshams/PedicleScrewSimulator/blob/custom/doc/5-Placing-landmarks.mp4?raw=true). ![Placing landmarks](doc/5-Placing-landmarks.png)
+4. Adjust the landmark position:
+    1. Click on each of the *fiducials* to jump the camera to its location
+    2. Click `Adjust Landmarks` to be able to move the landmarks by dragging them. Click `Fix Landmarks` once done.
+    3. Click `Start Measuring` to place a ruler anywhere in the scene.
+    4. Under `Change Slice Reconstruction`, adjust the *Rotation Angle* for any of the available quadrants (Red or Yellow)
+5. For each *Insertion Site*, select a *Screw Length* and *Screw Width*, `Load Screw`, make any *Vertical Adjustment* or *Horizontal Adjustment* and `Insert Screw`.
+6. Save (ie `File/Save` or `Cmd + s` or `Ctrl + s`)

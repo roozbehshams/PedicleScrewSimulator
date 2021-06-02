@@ -34,4 +34,9 @@ To start, load the module called `Training/Custom Pedicle Screw Simulator` in th
 For each of the following step, once completed, press the `Next` button in the bottom left of the window. Each screenshot below shows the 3D Slicer window before pressing the `Next` button:
 
 1. Drag-and-drop the segmentation file into 3D Slicer, press `OK` to load the volume ![](doc/2-Load-the-spine-segmentation.png)
-2. If the 3D view (top right "blue" quadrant) does not show a rendered vertebra model, switch to the `Volume Rendering` module from the dropdown menu and press `Fit to Volume`.
+
+> Note: If the 3D view (top right "blue" quadrant) does not show a rendered vertebra model, switch to the `Volume Rendering` module from the dropdown menu and press `Fit to Volume`. ![Volume rendering](doc/3-Volume-rendering.png)
+
+> Tip: In the *Rendering* option in the left panel, select *VTK GPU Ray Casting* for improved performance.
+
+2. Select the appropriate *1st Instrumented Level* as well as the *# to Instrument*. The number of levels selected goes down the spine (ie. *L3* with 3 levels -> *L3*, *L4*, *L5*). Optionally adjust the bounding box to only select the vertebra levels of interest by dragging the colored dots in any of the four quadrants.

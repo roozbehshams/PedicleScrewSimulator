@@ -25,6 +25,12 @@ module designed by the Sunnybrook Research Institute in Toronto.
 > Note: In step *3.4*, the correct path to be added must be to the folder called `PedicleScrewSimulator` which is situated inside
 > the cloned/extracted directory of the same name. For example: `/home/JohnDoe/PedicleScrewSimulator/PedicleScrewSimulator`.
 
-## Usage
+## Documentation
 
-1. Load the module called `Training/Custom Pedicle Screw Simulator` ![](doc/1-Loading-the-module.png)
+To start, load the module called `Training/Custom Pedicle Screw Simulator`. ![Initial 3D Slicer view](doc/1-Loading-the-module.png)
+
+### Usage
+
+For each of the following step, once completed, press the `Next` button in the bottom left of the window. Each screenshot below shows the 3D Slicer window before pressing the `Next` button:
+
+1. Drag-and-drop the segmentation file into 3D Slicer, press `OK` to load the volume ![](doc/2-Load-the-spine-segmentation.png)

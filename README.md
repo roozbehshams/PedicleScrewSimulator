@@ -19,7 +19,7 @@ module designed by the Sunnybrook Research Institute in Toronto.
     1. Launch 3D Slicer
     2. Open the **Edit/Application Settings**
     3. Switch to the **Modules** menu item in the left navigation
-    4. In the **Additional module paths**, *Add* a path to the previously downloaded path (`PedicleScrewSimulator/PedicleScrewSimulator`)
+    4. In the **Additional module paths**, *Add* a path to the `PedicleScrewSimulator` folder inside the previously downloaded path (`PedicleScrewSimulator/PedicleScrewSimulator`)
     5. Click **OK**, 3D Slicer should prompt to relaunch the application in order to correctly load the module
 
 > Note: In step *3.4*, the correct path to be added must be to the folder called `PedicleScrewSimulator` which is situated inside

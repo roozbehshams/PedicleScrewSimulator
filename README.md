@@ -24,3 +24,7 @@ module designed by the Sunnybrook Research Institute in Toronto.
 
 > Note: In step *3.4*, the correct path to be added must be to the folder called `PedicleScrewSimulator` which is situated inside
 > the cloned/extracted directory of the same name. For example: `/home/JohnDoe/PedicleScrewSimulator/PedicleScrewSimulator`.
+
+## Usage
+
+1. Load the module called `Training/Custom Pedicle Screw Simulator`

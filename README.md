@@ -41,10 +41,20 @@ For each of the following step, once completed, press the `Next` button in the b
 
 2. Select the appropriate *1st Instrumented Level* as well as the *# to Instrument*. The number of levels selected goes down the spine (ie. *L3* with 3 levels -> *L3*, *L4*, *L5*). Optionally adjust the bounding box to only select the vertebra levels of interest by dragging the colored dots in any of the four quadrants. ![Select the vertebra levels to be instrumented](doc/4-Select-vertebra-levels.png)
 3. Place the landmarks corresponding to the desired entrypoints. There will be an opportunity to correct the placement in the next step too. [Download the following video for a demonstration](https://github.com/roozbehshams/PedicleScrewSimulator/blob/custom/doc/5-Placing-landmarks.mp4?raw=true). ![Placing landmarks](doc/5-Placing-landmarks.png)
-4. Adjust the landmark position:
+4. Switch to the `Markups` module in the dropdown, and rename each of the entrypoints (ie: "T1", "T2", etc) to match the following format:
+    - L3L: L3, left side
+    - T5R: T5, right side 
+5. Adjust the landmark position (back in the `Training/Custom Pedicle Screw Simulator`, after clicking `Next`):
     1. Click on each of the *fiducials* to jump the camera to its location
     2. Click `Adjust Landmarks` to be able to move the landmarks by dragging them. Click `Fix Landmarks` once done.
-    3. Click `Start Measuring` to place a ruler anywhere in the scene.
-    4. Under `Change Slice Reconstruction`, adjust the *Rotation Angle* for any of the available quadrants (Red or Yellow)
-5. For each *Insertion Site*, select a *Screw Length* and *Screw Width*, `Load Screw`, make any *Vertical Adjustment* or *Horizontal Adjustment* and `Insert Screw`.
-6. Save (ie `File/Save` or `Cmd + s` or `Ctrl + s`)
+    3. Under `Change Slice Reconstruction`, adjust the *Rotation Angle* for any of the available quadrants (Red or Yellow)
+    4. Click `Start Measuring` to place a ruler anywhere in the scene:
+      1. Place one measure for the screw length, starting at the entrypoint
+      2. Place one measure for the screw width, starting at the exterior pedicle wall
+      3. (After clicking the `Stop Measuring` button) Switch to the `Annotations` module in the dropdown, and rename each of the annotation rulers (if hidden, expand the *List* in the left hand pane) using the following format:
+         - L3LL: L3, left side, screw length
+         - L3LR: L3, left side, screw width
+      4. In either the `Annotations` or `Training/Custom Pedicle Screw Simulator` modules, the endpoints of each ruler can be adjusted by clicking and dragging (as long as `Stop Measuring` has been pressed)
+6. Save (ie `File/Save` or `Cmd + s` or `Ctrl + s`) and select the following objects:
+    - *T*: corresponds to the entrypoints
+    - Each of the rulers following the naming scheme in step 5.4.3 (ie *L3LL*, *L3LW*, *L3RL*, *L3RW*, etc)

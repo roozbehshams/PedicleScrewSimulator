@@ -54,7 +54,7 @@ For each of the following step, once completed, press the `Next` button in the b
       2. Place one measure for the screw width, starting at the exterior pedicle wall ![Placing rulers](doc/7-Placing-rulers.png)
       3. (After clicking the `Stop Measuring` button) Switch to the `Annotations` module in the dropdown, and rename each of the annotation rulers (if hidden, expand the *List* in the left hand pane) using the following format:
          - L3LL: L3, left side, screw length
-         - L3LR: L3, left side, screw width
+         - L3LW: L3, left side, screw width
          - ![Renaming rulers](doc/8-Renaming-rulers.png)
       4. In either the `Annotations` or `Training/Custom Pedicle Screw Simulator` modules, the endpoints of each ruler can be adjusted by clicking and dragging (as long as `Stop Measuring` has been pressed)
 6. Save (ie `File/Save` or `Cmd + s` or `Ctrl + s`) and select the following objects:
